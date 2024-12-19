@@ -1,0 +1,375 @@
+@import url('https://fonts.cdnfonts.com/css/porter-sans-block');
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background: #E8F4E7;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 48px;
+    align-items: center;
+    border-bottom: 1px solid #1C221B;
+}
+
+nav h1 {
+    font-family: "Porter Sans Block";
+    font-size: 42px;
+    margin: 0;
+}
+
+nav .nav-items {
+    display: flex;
+    list-style-type: none;
+    gap: 32px;
+    margin: 0;
+}
+
+nav .nav-items a {
+    font-family: "Calistoga";
+    font-size: 32px;
+    color: #1C221B;
+    text-decoration: none;
+    margin: 0;
+}
+
+header {
+    padding: 144px 48px 0px 48px;
+    border-bottom: 1px solid #1C221B;
+    background: linear-gradient(0deg, rgba(241, 57, 20, 0.2) 0%, rgba(0, 0, 0, 0) 50%)
+}
+
+header h1 {
+    font-family: Calistoga;
+    font-size: 120px;
+    font-weight: 400;
+    line-height: 120px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #1C221B;
+    margin: 0;
+}
+
+header img {
+    width: 100%;
+    margin-bottom: -7.5px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 48px;
+    gap: 48px;
+    font-family: "Courier Prime";
+}
+
+.gallery .item {
+    margin-bottom: 48px;
+}
+
+.gallery img {
+    width: 100%;
+}
+
+.gallery h4 {
+    margin: 0;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.gallery p {
+    margin: 0;
+    font-size: 17px;
+}
+
+.about-1 {
+    font-family: "Calistoga";
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    padding: 96px 270px;
+}
+
+.about-2 {
+    display: flex;
+    /* margin-left: 50px; */
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 2;
+    padding: 48px;
+}
+
+.about-2 p {
+    width: 50vw;
+    font-family: "Courier Prime";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.005em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.contact {
+    padding: 3.125rem 1rem;
+    background: #E8F4E7;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+}
+
+.contact h2 {
+    font-family: "Calistoga";
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+.contact input::-webkit-outer-spin-button,
+.contact input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.contact input,
+.contact textarea {
+    padding: 0.625rem;
+    margin: 0.625rem 0;
+    border: 0.0625rem solid rgba(28, 34, 27, 1);
+    border-radius: 0.3125rem;
+    background: none;
+    text-align: center;
+    padding: 20px;
+    font-family: Courier Prime;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+
+.contact>p {
+    font-family: "Courier Prime";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    width: 400px;
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+.contact button{
+    font-family: "Courier Prime";
+}
+
+.submit {
+    padding: 0.625rem;
+    background: #F13914;
+    color: #fff;
+    border: none;
+    border-radius: 0.3125rem;
+    cursor: pointer;
+    width: 30vw;
+    transition: 0.4s ease;
+    margin-bottom: 16px;
+}
+
+.skip {
+    padding: 0.625rem;
+    color: #F13914;
+    border: none;
+    background: none;
+    border-radius: 0.3125rem;
+    cursor: pointer;
+    width: 30vw;
+}
+
+.contact button:hover {
+    background: #555;
+}
+
+.footer {
+    text-align: center;
+    padding: 0.625rem 2rem;
+    background: #E8F4E7;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer h2{
+    font-family: "Calistoga";
+font-size: 28px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: -0.01em;
+}
+
+footer button{
+    font-family: "Courier Prime";
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+display: flex;
+justify-content: flex-end;
+padding: 12px 20px;
+background: none;
+border: 1px solid rgba(0, 0, 0, 0.16);
+border-radius: 8px;
+}
+
+
+@media (max-width: 1024px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav .nav-items {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    header h1 {
+        font-size: 80px;
+        line-height: 90px;
+    }
+
+    header img {
+        margin-bottom: -5px;
+    }
+
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 24px;
+        padding: 24px;
+    }
+
+    .about-1 {
+        padding: 48px 48px;
+        font-size: 36px;
+        line-height: 44px;
+    }
+
+    .about-2 p {
+        width: 70vw;
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .contact input,
+    .contact textarea {
+        font-size: 18px;
+        padding: 15px;
+    }
+
+    .submit,
+    .skip {
+        width: 50vw;
+        padding: 10px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 60px;
+        line-height: 70px;
+    }
+
+    .gallery {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 16px;
+    }
+
+    .about-1 {
+        padding: 24px 24px;
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .about-2 p {
+        width: 90vw;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .contact input,
+    .contact textarea {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .submit,
+    .skip {
+        width: 80vw;
+        padding: 10px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    nav {
+        padding: 16px;
+    }
+
+    nav h1 {
+        font-size: 28px;
+    }
+
+    nav .nav-items {
+        font-size: 18px;
+        gap: 8px;
+    }
+
+    header h1 {
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+    .about-1 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .about-2 p {
+        width: 95vw;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .contact h2 {
+        font-size: 20px;
+    }
+
+    .submit,
+    .skip {
+        width: 90vw;
+        font-size: 12px;
+    }
+
+    .gallery img {
+        margin-bottom: 16px;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
+}
